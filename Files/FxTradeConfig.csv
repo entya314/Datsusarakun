@@ -1,1 +1,10 @@
-10,USDJPY,0.5,5,NewOrder_Pattern1,Payment_Pattern1,1
+50,                  EventSetTimerに格納する値、0の場合Tickで行う。
+USDJPY,              売買する通貨ペア
+0.5,                 取引を行わない金額の割合
+5,                   最大建玉数
+Order_Ichimoku,      新規取引を行うクラス名を指定する。
+Payment_Ichimoku,    決済取引を行うクラス名を指定する。
+3,                   最大レバ
+10,                  ストップロスチェック開始レート利益(pips)
+RATE,                ストップロスの更新を割合にするかレートにするか
+10,                  ストップロスチェックの追従レート(pips)/割合
